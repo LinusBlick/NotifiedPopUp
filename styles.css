@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-color: #0f0f0f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Notified__register-for-push-1 {
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    max-width: 375px;
+}
+
+.Notified__signup {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 375px;
+    padding: 20px 15px;
+}
+
+.Notified__header {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 37.5px;
+    color: #000;
+}
+
+.Notified__preview {
+    display: flex;
+    gap: 10px;
+    background-color: #E9E9E980;
+    padding: 10px;
+    border-radius: 16px;
+    letter-spacing: -0.5px;
+}
+
+.Notified__preview-image {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.Notified__preview-text {
+    width: 100%;
+}
+
+.Notified__preview-text-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Notified__preview-text-header-content {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.Notified__preview-text-header-time {
+    color: #DADADA;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.Notified__preview-text-body {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+
+.Notified__reasons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.Notified__reasons-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.Notified__reasons-text-header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.Notified__reasons-text-body {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4F4F4F
+}
+
+.Notified__button {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.Notified__footer {
+    display: flex;
+    gap: 5px;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+    color: #4F4F4F
+}
+
+.Notified__footer-reason {
+    display: flex;
+    align-items: center;
+}
+
+.Notified__footer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15px;
+    width: 15px;
+}
+
+.Notified__signup-step-2 {
+    display: none;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notified Popup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="background">
+    <div class="Notified__register-for-push-1">
+        <div class="Notified__signup Notified__signup-step-1">
+            <div class="Notified__header">Push Nachrichten.<br/>
+                Nichts verpassen.
+            </div>
+            <!--Preview-->
+            <div class="Notified__preview">
+                <div class="Notified__preview-image"></div>
+                <div class="Notified__preview-text">
+                    <div class="Notified__preview-text-header">
+                        <div class="Notified__preview-text-header-content">Lorem ipsum solor dit</div>
+                        <div class="Notified__preview-text-header-time">vor 1 Minute</div>
+                    </div>
+                    <div class="Notified__preview-text-body">Lorem ipsum solot dit amet</div>
+                </div>
+            </div>
+            <!--Vorteile-->
+            <div class="Notified__reasons">
+                <div class="Notified__reasons-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.875 23.5C17.875 23.6658 17.8092 23.8247 17.6919 23.9419C17.5747 24.0592 17.4158 24.125 17.25 24.125C16.7527 24.125 16.2758 23.9275 15.9242 23.5758C15.5726 23.2242 15.375 22.7473 15.375 22.25V16C15.375 15.8342 15.3092 15.6753 15.1919 15.5581C15.0747 15.4408 14.9158 15.375 14.75 15.375C14.5842 15.375 14.4253 15.3092 14.3081 15.1919C14.1909 15.0747 14.125 14.9158 14.125 14.75C14.125 14.5842 14.1909 14.4253 14.3081 14.3081C14.4253 14.1908 14.5842 14.125 14.75 14.125C15.2473 14.125 15.7242 14.3225 16.0758 14.6742C16.4275 15.0258 16.625 15.5027 16.625 16V22.25C16.625 22.4158 16.6909 22.5747 16.8081 22.6919C16.9253 22.8092 17.0842 22.875 17.25 22.875C17.4158 22.875 17.5747 22.9408 17.6919 23.0581C17.8092 23.1753 17.875 23.3342 17.875 23.5ZM15.375 10.375C15.6222 10.375 15.8639 10.3017 16.0695 10.1643C16.275 10.027 16.4352 9.83176 16.5299 9.60335C16.6245 9.37495 16.6492 9.12361 16.601 8.88114C16.5528 8.63866 16.4337 8.41593 16.2589 8.24112C16.0841 8.0663 15.8613 7.94725 15.6189 7.89902C15.3764 7.85079 15.1251 7.87554 14.8967 7.97015C14.6682 8.06476 14.473 8.22498 14.3357 8.43054C14.1983 8.6361 14.125 8.87777 14.125 9.125C14.125 9.45652 14.2567 9.77446 14.4911 10.0089C14.7255 10.2433 15.0435 10.375 15.375 10.375ZM31.625 16C31.625 19.0903 30.7086 22.1113 28.9917 24.6808C27.2748 27.2503 24.8345 29.253 21.9794 30.4356C19.1243 31.6182 15.9827 31.9277 12.9517 31.3248C9.92077 30.7219 7.13666 29.2337 4.95146 27.0485C2.76627 24.8633 1.27813 22.0792 0.675237 19.0483C0.072343 16.0173 0.38177 12.8757 1.56439 10.0206C2.74701 7.16548 4.7497 4.72518 7.31922 3.00829C9.88874 1.29139 12.9097 0.375 16 0.375C20.1426 0.379549 24.1143 2.02721 27.0435 4.95648C29.9728 7.88575 31.6205 11.8574 31.625 16ZM30.375 16C30.375 13.1569 29.5319 10.3776 27.9524 8.01368C26.3728 5.64972 24.1278 3.80724 21.5011 2.71923C18.8744 1.63122 15.9841 1.34655 13.1956 1.90121C10.4071 2.45587 7.84573 3.82496 5.83535 5.83534C3.82497 7.84572 2.45588 10.4071 1.90122 13.1956C1.34656 15.9841 1.63123 18.8744 2.71924 21.5011C3.80725 24.1278 5.64973 26.3728 8.01368 27.9524C10.3776 29.5319 13.1569 30.375 16 30.375C19.8112 30.3709 23.4652 28.855 26.1601 26.1601C28.855 23.4652 30.3709 19.8112 30.375 16Z"
+                              fill="black"/>
+                    </svg>
+                </div>
+                <div class="Notified__reasons-text">
+                    <div class="Notified__reasons-text-header">Nie wieder Aktionen verpassen</div>
+                    <div class="Notified__reasons-text-body">Rabatt-Aktionen und Ausverkäufe</div>
+                </div>
+            </div>
+            <div class="Notified__reasons">
+                <div class="Notified__reasons-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.875 23.5C17.875 23.6658 17.8092 23.8247 17.6919 23.9419C17.5747 24.0592 17.4158 24.125 17.25 24.125C16.7527 24.125 16.2758 23.9275 15.9242 23.5758C15.5726 23.2242 15.375 22.7473 15.375 22.25V16C15.375 15.8342 15.3092 15.6753 15.1919 15.5581C15.0747 15.4408 14.9158 15.375 14.75 15.375C14.5842 15.375 14.4253 15.3092 14.3081 15.1919C14.1909 15.0747 14.125 14.9158 14.125 14.75C14.125 14.5842 14.1909 14.4253 14.3081 14.3081C14.4253 14.1908 14.5842 14.125 14.75 14.125C15.2473 14.125 15.7242 14.3225 16.0758 14.6742C16.4275 15.0258 16.625 15.5027 16.625 16V22.25C16.625 22.4158 16.6909 22.5747 16.8081 22.6919C16.9253 22.8092 17.0842 22.875 17.25 22.875C17.4158 22.875 17.5747 22.9408 17.6919 23.0581C17.8092 23.1753 17.875 23.3342 17.875 23.5ZM15.375 10.375C15.6222 10.375 15.8639 10.3017 16.0695 10.1643C16.275 10.027 16.4352 9.83176 16.5299 9.60335C16.6245 9.37495 16.6492 9.12361 16.601 8.88114C16.5528 8.63866 16.4337 8.41593 16.2589 8.24112C16.0841 8.0663 15.8613 7.94725 15.6189 7.89902C15.3764 7.85079 15.1251 7.87554 14.8967 7.97015C14.6682 8.06476 14.473 8.22498 14.3357 8.43054C14.1983 8.6361 14.125 8.87777 14.125 9.125C14.125 9.45652 14.2567 9.77446 14.4911 10.0089C14.7255 10.2433 15.0435 10.375 15.375 10.375ZM31.625 16C31.625 19.0903 30.7086 22.1113 28.9917 24.6808C27.2748 27.2503 24.8345 29.253 21.9794 30.4356C19.1243 31.6182 15.9827 31.9277 12.9517 31.3248C9.92077 30.7219 7.13666 29.2337 4.95146 27.0485C2.76627 24.8633 1.27813 22.0792 0.675237 19.0483C0.072343 16.0173 0.38177 12.8757 1.56439 10.0206C2.74701 7.16548 4.7497 4.72518 7.31922 3.00829C9.88874 1.29139 12.9097 0.375 16 0.375C20.1426 0.379549 24.1143 2.02721 27.0435 4.95648C29.9728 7.88575 31.6205 11.8574 31.625 16ZM30.375 16C30.375 13.1569 29.5319 10.3776 27.9524 8.01368C26.3728 5.64972 24.1278 3.80724 21.5011 2.71923C18.8744 1.63122 15.9841 1.34655 13.1956 1.90121C10.4071 2.45587 7.84573 3.82496 5.83535 5.83534C3.82497 7.84572 2.45588 10.4071 1.90122 13.1956C1.34656 15.9841 1.63123 18.8744 2.71924 21.5011C3.80725 24.1278 5.64973 26.3728 8.01368 27.9524C10.3776 29.5319 13.1569 30.375 16 30.375C19.8112 30.3709 23.4652 28.855 26.1601 26.1601C28.855 23.4652 30.3709 19.8112 30.375 16Z"
+                              fill="black"/>
+                    </svg>
+                </div>
+                <div class="Notified__reasons-text">
+                    <div class="Notified__reasons-text-header">Lieferupdates immer aktuell</div>
+                    <div class="Notified__reasons-text-body">Ob Sendungsverfolgung oder geliefert</div>
+                </div>
+            </div>
+            <div class="Notified__reasons">
+                <div class="Notified__reasons-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.875 23.5C17.875 23.6658 17.8092 23.8247 17.6919 23.9419C17.5747 24.0592 17.4158 24.125 17.25 24.125C16.7527 24.125 16.2758 23.9275 15.9242 23.5758C15.5726 23.2242 15.375 22.7473 15.375 22.25V16C15.375 15.8342 15.3092 15.6753 15.1919 15.5581C15.0747 15.4408 14.9158 15.375 14.75 15.375C14.5842 15.375 14.4253 15.3092 14.3081 15.1919C14.1909 15.0747 14.125 14.9158 14.125 14.75C14.125 14.5842 14.1909 14.4253 14.3081 14.3081C14.4253 14.1908 14.5842 14.125 14.75 14.125C15.2473 14.125 15.7242 14.3225 16.0758 14.6742C16.4275 15.0258 16.625 15.5027 16.625 16V22.25C16.625 22.4158 16.6909 22.5747 16.8081 22.6919C16.9253 22.8092 17.0842 22.875 17.25 22.875C17.4158 22.875 17.5747 22.9408 17.6919 23.0581C17.8092 23.1753 17.875 23.3342 17.875 23.5ZM15.375 10.375C15.6222 10.375 15.8639 10.3017 16.0695 10.1643C16.275 10.027 16.4352 9.83176 16.5299 9.60335C16.6245 9.37495 16.6492 9.12361 16.601 8.88114C16.5528 8.63866 16.4337 8.41593 16.2589 8.24112C16.0841 8.0663 15.8613 7.94725 15.6189 7.89902C15.3764 7.85079 15.1251 7.87554 14.8967 7.97015C14.6682 8.06476 14.473 8.22498 14.3357 8.43054C14.1983 8.6361 14.125 8.87777 14.125 9.125C14.125 9.45652 14.2567 9.77446 14.4911 10.0089C14.7255 10.2433 15.0435 10.375 15.375 10.375ZM31.625 16C31.625 19.0903 30.7086 22.1113 28.9917 24.6808C27.2748 27.2503 24.8345 29.253 21.9794 30.4356C19.1243 31.6182 15.9827 31.9277 12.9517 31.3248C9.92077 30.7219 7.13666 29.2337 4.95146 27.0485C2.76627 24.8633 1.27813 22.0792 0.675237 19.0483C0.072343 16.0173 0.38177 12.8757 1.56439 10.0206C2.74701 7.16548 4.7497 4.72518 7.31922 3.00829C9.88874 1.29139 12.9097 0.375 16 0.375C20.1426 0.379549 24.1143 2.02721 27.0435 4.95648C29.9728 7.88575 31.6205 11.8574 31.625 16ZM30.375 16C30.375 13.1569 29.5319 10.3776 27.9524 8.01368C26.3728 5.64972 24.1278 3.80724 21.5011 2.71923C18.8744 1.63122 15.9841 1.34655 13.1956 1.90121C10.4071 2.45587 7.84573 3.82496 5.83535 5.83534C3.82497 7.84572 2.45588 10.4071 1.90122 13.1956C1.34656 15.9841 1.63123 18.8744 2.71924 21.5011C3.80725 24.1278 5.64973 26.3728 8.01368 27.9524C10.3776 29.5319 13.1569 30.375 16 30.375C19.8112 30.3709 23.4652 28.855 26.1601 26.1601C28.855 23.4652 30.3709 19.8112 30.375 16Z"
+                              fill="black"/>
+                    </svg>
+                </div>
+                <div class="Notified__reasons-text">
+                    <div class="Notified__reasons-text-header">Tips & Empfehlungen</div>
+                    <div class="Notified__reasons-text-body">Von unseren Experten, nur für dich</div>
+                </div>
+            </div>
+            <!--Anmelden-->
+            <div>
+                <button class="Notified__button" onclick=signup()>Jetzt anmelden</button>
+            </div>
+            <!--Footer-->
+            <div class="Notified__footer">
+                <div class="Notified__footer-reason">
+                    <div class="Notified__footer-icon">
+                        <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.96875 8.25L0.40625 4.6875L1.29688 3.79688L3.96875 6.46875L9.70312 0.734375L10.5938 1.625L3.96875 8.25Z"
+                                  fill="#4F4F4F"/>
+                        </svg>
+                    </div>
+                    Kein Spam
+                </div>
+                <div class="Notified__footer-reason">
+                    <div class="Notified__footer-icon">
+                        <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.96875 8.25L0.40625 4.6875L1.29688 3.79688L3.96875 6.46875L9.70312 0.734375L10.5938 1.625L3.96875 8.25Z"
+                                  fill="#4F4F4F"/>
+                        </svg>
+                    </div>
+                    Jederzeit abmelden
+                </div>
+                <div class="Notified__footer-reason">
+                    <div class="Notified__footer-icon">
+                        <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.96875 8.25L0.40625 4.6875L1.29688 3.79688L3.96875 6.46875L9.70312 0.734375L10.5938 1.625L3.96875 8.25Z"
+                                  fill="#4F4F4F"/>
+                        </svg>
+                    </div>
+                    Blitzschnelle Installation
+                </div>
+            </div>
+        </div>
+        <div class="Notified__signup Notified__signup-step-2">
+            <div class="Notified__header">Push Nachrichten.<br/>
+                Nichts verpassen.
+            </div>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="floatingInput" placeholder="">
+                <label for="floatingInput">Dein Vor- & Nachname</label>
+            </div>
+            <div class="form-floating">
+                <input type="email" class="form-control" id="floatingPassword" placeholder="">
+                <label for="floatingPassword">Deine E-Mail</label>
+            </div>
+            <!--Anmelden-->
+            <div>
+                <button class="Notified__button">App hinzufügen</button>
+            </div>
+            <!--Footer-->
+            <div class="Notified__footer">
+                <div class="Notified__footer-reason">
+                    <div class="Notified__footer-icon">
+                        <svg width="11" height="9" viewBox="0 0 11 9" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.96875 8.25L0.40625 4.6875L1.29688 3.79688L3.96875 6.46875L9.70312 0.734375L10.5938 1.625L3.96875 8.25Z"
+                                  fill="#4F4F4F"/>
+                        </svg>
+                    </div>
+                    Kein Spam
+                </div>
+                <div class="Notified__footer-reason">
+                    <div class="Notified__footer-icon">
+                        <svg width="11" height="9" viewBox="0 0 11 9" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.96875 8.25L0.40625 4.6875L1.29688 3.79688L3.96875 6.46875L9.70312 0.734375L10.5938 1.625L3.96875 8.25Z"
+                                  fill="#4F4F4F"/>
+                        </svg>
+                    </div>
+                    Jederzeit abmelden
+                </div>
+                <div class="Notified__footer-reason">
+                    <div class="Notified__footer-icon">
+                        <svg width="11" height="9" viewBox="0 0 11 9" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.96875 8.25L0.40625 4.6875L1.29688 3.79688L3.96875 6.46875L9.70312 0.734375L10.5938 1.625L3.96875 8.25Z"
+                                  fill="#4F4F4F"/>
+                        </svg>
+                    </div>
+                    Blitzschnelle Installation
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        function signup() {
+            document.querySelector('.Notified__signup-step-1').style.display = 'none';
+            document.querySelector('.Notified__signup-step-2').style.display = 'flex';
+            // Implementiere die Funktionalität hier
+        }
+
+        function hideNotifiedPWAInstallPopup() {
+            // Implementiere die Funktionalität hier
+        }
+
+        function hideNotifiedCreateAccountPopup() {
+            // Implementiere die Funktionalität hier
+        }
+
+        function hideNotifiedEnablePushPopup() {
+            // Implementiere die Funktionalität hier
+        }
+    </script>
+
+</body>
+</html>
